@@ -4,20 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <h1>My Friends and Family!</h1>
+    <div class="container p-3 bg-success text-white">
+        <h1>My Friends and Family!</h1>
+    </div>
 
-    <p>i love my family and my friends :D</p>
+    <div class="mt-4 p-5 bg-dark text-white rounded">
+        <h1>Welcome!</h1>
+        <p>This page is meant to showcase the people and memories closest to me.</p>
+    </div>
+    
 
-   <a href="friends.html" target="_blank"><strong>My Friends</strong></a>
+    <p class="lead">i love my family and my friends :D <div class="spinner-grow text-primary spinner-grow-sm"></div></p>
 
-    <p>The link above will lead you to the "My Friends" image page</p>
+    <div class="alert alert-dark alert-dismissible fade show">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        <strong>Tip!</strong> Start with the "My Friends" link first.
+      </div>
 
-    <a href="family.html"><em>My Family</em></a>
+   <a href="friends.html" target="_blank"><strong>My Friends</strong><span class="badge bg-secondary">:D</span></a>
 
-    <p>The link above will lead you to the "My Family" image page</p>
+    <p>The link above will lead you to the <kbd>"My Friends"</kbd> image page</p>
 
-    <h3>The End</h3>
+    <a href="family.html"><em>My Family</em><span class="badge rounded-pill bg-secondary"><3</span></a>
+
+    <p>The link above will lead you to the <kbd>"My Family"</kbd> image page</p>
+
+    <div class="container">
+        <div class="row"></div>
+            <div class="col-lg-3 bg-primary">One</div>
+            <div class="col-lg-3 bg-primary">Two</div>
+            <div class="col-lg-3 bg-primary">Three</div>
+            <div class="col-lg-3 bg-primary">Four</div>
+        </div>
+        <div class="row"></div>
+            <div class="col-lg-3 bg-primary">Three</div>
+            <div class="col-lg-3 bg-primary">Four</div>
+            <div class="col-lg-3 bg-primary">One</div>
+            <div class="col-lg-3 bg-primary">Two</div>
+        </div>
+
+        <div class="btn-group-vertical">
+            <button type="button" class="btn btn-warning">3!</button>
+            <button type="button" class="btn btn-warning">2!</button>
+            <button type="button" class="btn btn-warning">1!</button>
+          </div>
+
+    </div>
+    
+     <div class="btn-group btn-group-sm">
+            <button type="button" class="btn btn-info">Friends</button>
+            <button type="button" class="btn btn-info">and</button>
+            <button type="button" class="btn btn-info">Family
+                <span class="spinner-border spinner-border-sm"></span>
+            </button>
+     </div>
+    
+      <button type="button" class="btn btn-outline-dark">Next</button>
+    <h3>The End.</h3>
 </body>
 </html>
